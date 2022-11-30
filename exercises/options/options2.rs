@@ -19,6 +19,7 @@ mod tests {
     }
 
     #[test]
+
     fn layered_option() {
         let mut range = 10;
         let mut optional_integers: Vec<Option<i8>> = Vec::new();
